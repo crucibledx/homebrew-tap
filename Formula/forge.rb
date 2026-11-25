@@ -1,26 +1,26 @@
 class Forge < Formula
   desc "AI development environment setup & config sync CLI"
   homepage "https://github.com/crucibledx/forge-cli"
-  version "0.6.24"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/crucibledx/forge-cli/releases/download/v0.6.24/forge-darwin-arm64.tar.gz"
-      sha256 "1ff8340cf79ff82a259cb5da21b3931db435a632b2bd24a9cd590bc92676a317"
+      url "https://github.com/crucibledx/forge-cli/releases/download/v0.7.0/forge-darwin-arm64.tar.gz"
+      sha256 "8c4716057b60614fd4f078ddd28f216d0699a1bb92592e1ef0996df29669512b"
     else
-      url "https://github.com/crucibledx/forge-cli/releases/download/v0.6.24/forge-darwin-x64.tar.gz"
-      sha256 "65b320c34faaa638a4487c9b77a24e23cbbc28cc3822919283cc65dd69593cd8"
+      url "https://github.com/crucibledx/forge-cli/releases/download/v0.7.0/forge-darwin-x64.tar.gz"
+      sha256 "96d0b1fd513a7aa81b78b350c546ff68149d4bc55e5824cf31afde3edcdcac49"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/crucibledx/forge-cli/releases/download/v0.6.24/forge-linux-arm64.tar.gz"
-      sha256 "a10d216d266e65dd3f9326387ee298cf99d57f5271fc52f103a210d3dbbf7575"
+      url "https://github.com/crucibledx/forge-cli/releases/download/v0.7.0/forge-linux-arm64.tar.gz"
+      sha256 "e44701e4b0af55a04dd8964697e480b15b0e1eb1db0bde0da357176ee0118429"
     else
-      url "https://github.com/crucibledx/forge-cli/releases/download/v0.6.24/forge-linux-x64.tar.gz"
-      sha256 "603c9d202ba4adecc8982d86db819680493ce23fcd888d106cda5ccfdfcd3a7c"
+      url "https://github.com/crucibledx/forge-cli/releases/download/v0.7.0/forge-linux-x64.tar.gz"
+      sha256 "3a0b56bcb8d7825ee1d6939394e11cf52934dbfcd7de5065fd60e3383fbd9121"
     end
   end
 
